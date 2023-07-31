@@ -2,7 +2,7 @@ import Image from "next/image";
 import target from "public/Image/target.png";
 import sports from "public/Image/sports.png";
 import atom from "public/Image/atom.png";
-import books from "public/Image/books.png";
+import text from "public/Image/text-books.png"
 
 
 const Card = () => {
@@ -77,10 +77,10 @@ const Card = () => {
                         {/* box pertama */}
                         <div className="mx-2">
                             <Image
-                                src={books}
+                                src={text}
                                 alt="icon target"
                                 width={60}
-                                height={40}
+                                height={50}
                             />
                             <h4 className="text-md mt-4 mb-2">GROUP CLASSES</h4>
                             <div className="flex gap-1">
